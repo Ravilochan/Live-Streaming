@@ -1,0 +1,22 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Authentication for Live Streaming",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravilochan/Live-Streaming.git"
+  },
+  "author": "Ravilochan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ravilochan/Live-Streaming/issues"
+  },
+  "homepage": "https://github.com/Ravilochan/Live-Streaming#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
