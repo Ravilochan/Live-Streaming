@@ -1,0 +1,13 @@
+version: "3.3"
+services:
+  rtmp:
+    build: .
+    container_name: rtmp_server
+    restart: always
+    volumes:
+      - ./data:/tmp/hls
+
+  auth:
+    build: ./auth
+    container_name: auth_server
+    restart: always
