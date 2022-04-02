@@ -5,7 +5,7 @@ WORKDIR /src
 
 COPY package*.json ./
 
-RUN yarn install
+RUN yarn --production
 
 COPY server.js ./
 
